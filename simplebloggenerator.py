@@ -6,8 +6,8 @@ from langchain.chains import LLMChain
 from typing import List
 
 # api keys
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAoHZrkpzdA528x6DHMGdKgt1ur05_svaw"
-os.environ["SERPER_API_KEY"] = "7ee17327c8ac81766519b8ef3de5fd236f84ce66"
+os.environ["GOOGLE_API_KEY"] = "api-key-here"
+os.environ["SERPER_API_KEY"] = "api-key-here"
 
 llm = GoogleGenerativeAI(model="gemini-pro", temperature=0.7)
 search = GoogleSerperAPIWrapper()
